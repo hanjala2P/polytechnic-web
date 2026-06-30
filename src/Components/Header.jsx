@@ -90,12 +90,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Logo & Name */}
         <div className="flex items-center gap-4">
-          <div className="w-16 h-16 bg-white text-[#1b5e20] rounded-full flex items-center justify-center font-bold text-2xl shadow-md border-2 border-green-200">
-            SPI
+          <div className="text-[#1b5e20] rounded-full flex items-center justify-center font-bold text-2xl shadow-md border-2 border-green-200">
+            <img className="rounded-full sm:rounded-full h-14 w-14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSrkO2qiEwfCqcVystohx4jZRqlA0ZzoL7D8tUHLveSQ&s=10" alt="" />
           </div>
           <div>
             <h1 className="text-xl md:text-2xl font-bold tracking-wide uppercase leading-tight">
-              Sirajganj Polytechnic Institute
+              Sirajganj Goverment Polytechnic Institute
             </h1>
             <p className="text-xs md:text-sm text-green-200 font-medium">
               Government Polytechnic Institute under BTEB | Est: 2004

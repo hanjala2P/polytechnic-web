@@ -134,12 +134,18 @@ const Home = () => {
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 text-center md:text-left text-white w-full">
           <div className="max-w-3xl">
-            <span className="inline-block bg-green-600 text-white font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-green-400">
+           
+            {/* <span className="inline-block bg-yellow-400 text-white font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider mb-4 border border-yellow-600">
               Government of Bangladesh
-            </span>
-            <h2 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-white mb-6">
-              Sirajganj Polytechnic Institute
+            </span> */}
+            <div className="flex gap-2">
+               <img className=" h-18 w-18 mt-3 rounded-full" src="https://sirajganj.polytech.gov.bd/site-assets/images/logo.png" alt="" />
+               <h2 className="text-4xl md:text-6xl font-black tracking-tight leading-tight text-white mb-6">
+              Sirajganj Goverment Polytechnic Institute
             </h2>
+
+            </div>
+            
             <p className="text-lg md:text-xl text-slate-200 mb-8 font-light leading-relaxed">
               Excellence in Technical & Engineering Education. Empowering the next generation of engineers with advanced practical skills and innovation.
             </p>
